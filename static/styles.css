@@ -300,6 +300,10 @@ body {
         padding: 3%;
     }
 
+    #proyectosgrid a:hover {
+        border: 0;
+    }
+
     #descproyecto {
         margin: 5% 5%;
     }
