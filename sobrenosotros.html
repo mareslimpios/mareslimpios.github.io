@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nirsa - Sobre Nosotros</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium Web">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/chedros">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+
+<body style="width: 100%;">
+
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-right" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">X</a>
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Inicio</a>
+        <a href="sobrenosotros.html" onclick="w3_close()" class="w3-bar-item w3-button">Sobre Nosotros</a>
+        <a href="sobrenosotros.html#proyectos" onclick="w3_close()" class="w3-bar-item w3-button">Proyectos</a>
+    </nav>
+
+    <!-- Top menu -->
+    <header class="w3-top" style="background-color: #FFF; border-radius: 0 0 30px 30px;">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card" style="border-radius: 0 0 30px 30px;">
+            <div class="w3-left w3-padding-16" style="padding: 8px 16px;">
+                <img src="static/images/logo navbar.svg" width="40%">
+            </div>
+            <div class="w3-right w3-padding-16" onclick="w3_open()" style="padding: 8px 16px; color: #0E7ABF;">
+                <h3 style="margin: 0%;">&#9776;</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content" style="max-width:1200px;margin-top:100px">
+
+        <div id="mareslimpios">
+            <img src="static/images/mares titulo.png" width="40%">
+            <p>
+                Ser el epicentro digital que canaliza, promueve y amplifica las
+                iniciativas destinadas a preservar la vida submarina, específicamente
+                atendiendo a la reducción de la contaminación por plásticos en los
+                océanos. La plataforma busca convertirse en el lugar donde empresas,
+                fundaciones, ONGs y personas individuales puedan encontrar, colaborar
+                y participar en proyectos concretos y efectivos que impacten positivamente
+                en la salud de los mares, fomentando la conservación y la concienciación
+                sobre la importancia vital de la vida marina.
+            </p>
+        </div>
+
+        <div style="text-align: center;">
+            <iframe id="video" src="https://www.youtube.com/embed/AZMaADmrTQc?autoplay=1&mute=1"></iframe>
+        </div>
+        
+        <div id="misionvision" style="background-image: url('static/images/burbujas.svg');">
+            <p>
+                En <strong>Mares Limpios</strong> buscamos ser vínculo entre proyectos de reducción
+                de contaminación plástica y voluntarios, o donadores, para que se encuentren y los
+                proyectos reciban el respaldo necesario para su continuidad.
+            </p>
+        </div>
+
+        <div id="proyectos">
+            <div
+                style="background-image: url(static/images/proyectos/burbujas\ proyectos.png); background-size: 100%; text-align: center;">
+                <img src="static/images/proyectos/proyectos titulo.png" width="45%" style="padding-bottom: 3%;">
+            </div>
+            <div id="proyectosgrid">
+                <a href="https://tunacons.org/fishing-plastic/"><img src="static/images/proyectos/pescando plasticos.png"
+                        width="100%"></a>
+                <a href="https://tunacons.org/galapagos-cooperation/"><img
+                        src="static/images/proyectos/recoleccion de plantados.png" width="100%"></a>
+                <a href="https://contamoscontigoecuador.com/"><img src="static/images/proyectos/campamento tortuguero.png"
+                        width="100%"></a>
+                <a href="https://www.facebook.com/UPacificoEC/videos/webinars-upacifico-investiga/200149392012152/"><img
+                        src="static/images/proyectos/programa de monitoreo.png" width="100%"></a>
+                <a href="https://web.upacifico.edu.ec/plasticos-galapagos/"><img
+                        src="static/images/proyectos/aportes de plasticos.png" width="100%"></a>
+                <a href="http://www.conaccechaplains.org/"><img src="static/images/proyectos/guardianes del oceano.png"
+                        width="100%"></a>
+                <a href="http://www.amcorpinternational.com/"><img src="static/images/proyectos/comedores comunitarios.png"
+                        width="100%"></a>
+                <a href="http://www.amcorpinternational.com/"><img src="static/images/proyectos/robotica sin fronteras.png"
+                        width="100%"></a>
+                <a href="http://www.amcorpinternational.com/"><img src="static/images/proyectos/reciclacomunidad.png"
+                        width="100%"></a>
+                <a href="https://web.upacifico.edu.ec/editorial/"><img src="static/images/proyectos/coleccion pacifico.png"
+                        width="100%"></a>
+                <a
+                    href="https://www.instagram.com/reel/Ctt6rySOUcX/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA%3D%3D"><img
+                        src="static/images/proyectos/juanchatienda.png" width="100%"></a>
+                <a href="https://academiadeloceano.com/"><img src="static/images/proyectos/academia del oceano.png"
+                        width="100%"></a>
+            </div>
+        </div>
+
+        <img src="static/images/lideres por ods.png" width="100%">
+
+        <!-- Footer -->
+        <footer id="footer" class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+            <img class="w3-image" src="static/images/footer.png" width="1500" height="800">
+            <div class="w3-display-bottommiddle footerelem">
+                <img src="static/images/logo footer.png">
+                <div>
+                    <h1 style="margin-bottom: 0; font-weight: 600; color:#0E7ABF; font-family: 'CHEDROS', sans-serif;">
+                        ¡Infórmate más!</h1>
+                    <p style="margin-top: 0; font-weight: 600;">Para obtener información sobre nuestros eventos y
+                        causas:</p>
+                    <div>
+                        <a href="https://docs.google.com/forms/d/1GETGDh98FRssVvKgkOdyaxX59Mfr9BymFeamcU_9RXQ/edit">
+                            <button type="button"
+                                class="w3-button w3-padding-large w3-border susbut">Suscríbete</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- End page content -->
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
