@@ -109,16 +109,19 @@ body {
 }
 
 #misionvision {
-    display: flex;
-    justify-content: space-between;
-    gap: 10%;
-    padding: 12% 20% 5% 20%;
+    padding: 12% 20% 8% 20%;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     margin: -10% 0% 5% 0%;
     position: relative;
     color: #FFF;
     z-index: -1;
+}
+
+#agregarproyecto {
+    text-align: center;
+    margin-top: -12%;
+    margin-bottom: 10%;
 }
 
 .butverde {
@@ -164,7 +167,7 @@ body {
     font-weight: 600;
     font-size: 15px;
     padding: 1% 4%;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
 .w3-sidebar {
@@ -190,6 +193,7 @@ body {
     width: 75%;
     margin: auto;
     font-family: "Titillium Web";
+    font-size: large;
 }
 
 #groupicon {
@@ -202,7 +206,7 @@ body {
 
 #impulsores {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(7, 1fr);
 }
 
 #impulsores img {
@@ -243,6 +247,10 @@ body {
         width: 100%;
     }
 
+    .ennirsa {
+        font-size: medium;
+    }
+
     #bannerelem {
         padding: 0%;
         text-align: center;
@@ -257,6 +265,7 @@ body {
 
     #conoceproyectos {
         font-size: small;
+        margin: 0;
     }
 
     #proposito {
@@ -324,7 +333,13 @@ body {
         display: block;
         margin: -10% 0% 5% 0%;
         padding-top: 12%;
+        padding-bottom: 12%;
         font-size: medium;
+    }
+
+    #agregarproyecto {
+        margin-top: -17%;
+        margin-bottom: 12%;
     }
 
     #mapa {
@@ -380,5 +395,4 @@ body {
     .footerelem h1 {
         font-size: large;
     }
-
 }
